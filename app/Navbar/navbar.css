@@ -1,0 +1,19 @@
+#mobile-menu {
+    transition: all 0.3s ease-in-out; /* Add transition properties */
+    transform: translateY(-100%); /* Initial position (hidden) */
+    opacity: 0; /* Initial opacity (hidden) */
+  }
+  
+  #mobile-menu.open {
+    transform: translateY(0); /* Animate position (visible) */
+    opacity: 1; /* Animate opacity (visible) */
+  }
+
+.navbar{
+    /* // background: rgba( 92, 92, 92, 0.1 ); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    /* // border-radius: 10px;
+    // border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
